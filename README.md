@@ -22,12 +22,12 @@ powershell -ExecutionPolicy Bypass -Command "Add-Type -AssemblyName System.Windo
 #Install requirements:
 python -m venv venv
 source venv/bin/activate
+pyinstaller --onefile --noconsole --name "SystemUpdate.exe" mouse_jitter.py
+
 
 # DEVELOPER
 
 Commands By Vipin to prank your friends
 pip install pyautogui pyinstaller
-
-pyinstaller --onefile --noconsole --name "SystemUpdate.exe" mouse_jitter.py
 
 
