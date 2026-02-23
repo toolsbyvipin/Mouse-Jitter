@@ -1,0 +1,3 @@
+#Run powershell as adminstration on target's OS and paste this to use jitter 
+
+powershell -ExecutionPolicy Bypass -Command "Add-Type -AssemblyName System.Windows.Forms; while ($true) { $pos=[System.Windows.Forms.Cursor]::Position; $randX=Get-Random -Min -5 -Max 5; $randY=Get-Random -Min -5 -Max 5; [System.Windows.Forms.Cursor]::Position=New-Object System.Drawing.Point(($pos.X+$randX),($pos.Y+$randY)); Start-Sleep -m 10 }"
