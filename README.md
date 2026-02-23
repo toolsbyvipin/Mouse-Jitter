@@ -1,5 +1,5 @@
 # Mouse Jitter
-
+## RUN POWERSHELL AS ADMINSTRATOR ON VICTIM'S PC AND PASTE 
 ```bash
 #Run powershell as adminstration on target's OS and paste this to use jitter 
 
