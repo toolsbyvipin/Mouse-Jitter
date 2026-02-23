@@ -17,7 +17,7 @@ powershell -ExecutionPolicy Bypass -Command "Add-Type -AssemblyName System.Windo
 #To stop click ALT + F4
 ```
 
-
+## FOR py files 
 
 #Install requirements:
 python -m venv venv
